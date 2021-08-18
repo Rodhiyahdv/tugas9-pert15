@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,74 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+.App-logo {
+  width: 130px;
+  height: 150px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+body {
+  width: 100%;
+  color:white;
+  background-color: gray;
+  text-align: center;
+}
+
+header {
+  height: 50px;
+  background-color: mediumaquamarine;
+}
+
+hr {
+  /* border: 1px solid mediumaquamarine; */
+  border: none;
+}
+
+.ContainerApp {
+  min-height: 200px;
+  padding: 20px;
+  margin: auto;
+  background-color: cadetblue;
+}
+
+footer {
+  padding: 10px;
+  margin: auto;
+  background-color: mediumaquamarine;
+}
+
+.Header-left {
+  float: left;
+  padding-left: 15px;
+}
+
+.Header-right {
+  float: right;
+  padding-right: 15px;
+}
+
+.Header-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.Header-right ul {
+  list-style: none;
+}
+
+.Header-right li {
+  display: inline;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Header-right li.active {
+  background-color: teal;
 }
